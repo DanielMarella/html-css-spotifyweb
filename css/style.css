@@ -29,15 +29,16 @@ ul{
 /* lg first 1440px */
 
 .column-left{
-    width: 20vh;
-    height: 100vh;
+    width: 30vh;
+    height: calc(100vh - 15vh);
     background-color: black;
     border: 2px solid blue;
 }
 
 .column-right{
-    width: calc(1440px - 20vh);
-    height: 100vh;
+    overflow: scroll;
+    width: calc(100% - 20vh);
+    height: calc(100vh - 15vh);
     background-color: orange;
     border: 2px solid cyan;
 }
@@ -73,8 +74,20 @@ li{
     border: 3px solid black;
 }
 
+.for-you{
+    border: 3px solid red;
+}
+
+.popular{
+    border: 3px solid red;
+}
 
 
+footer{
+    height: 15vh;
+    background-color: grey;
+    border: 2px solid blue;
+}
 /* 878px md */
 /* 639px s */
 /* 552px xs */
