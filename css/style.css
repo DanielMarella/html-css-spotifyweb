@@ -7,10 +7,41 @@
     max-width: 1440px;
 }
 
+/* general class */
+
+ul{
+    list-style-type: none;
+}
+
+
+/* Reusable class */
+
+.flex{
+    display: flex;
+}
+
 /* lg first 1440px */
 
+.column-left{
+    width: 20vh;
+    height: 100vh;
+    background-color: black;
+    border: 2px solid blue;
+}
+
+.column-right{
+    width: calc( 100% - 20vh);
+    height: 100vh;
+    background-color: orange;
+    border: 2px solid cyan;
+}
 
 
+.top-row{
+    height: 15vh;
+    border: 3px solid red;
+    background-color: green;
+}
 
 /* 878px md */
 /* 639px s */
