@@ -20,6 +20,12 @@ ul{
     display: flex;
 }
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* lg first 1440px */
 
 .column-left{
@@ -41,6 +47,20 @@ ul{
     height: 15vh;
     border: 3px solid red;
     background-color: green;
+}
+
+.navigation-button{
+    width: 100%;
+}
+
+li{
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
 }
 
 /* 878px md */
