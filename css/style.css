@@ -12,7 +12,12 @@ ul{
     list-style-type: none;
 }
 
-
+a{
+    text-decoration: none;
+    color: white;
+    opacity: .5;
+    font-size: .9rem;
+}
 /* Reusable class */
 
 .flex{
@@ -31,7 +36,7 @@ ul{
     align-items: center;
 }
 
-/* lg first 1440px */
+/* lg first full screen*/
 
 .column-left{
     width: 30vh;
@@ -52,7 +57,6 @@ ul{
 
 .top-row{
     height: 15vh;
-    border: 3px solid red;
     background-color: #080b12;
 
 }
@@ -69,17 +73,27 @@ ul{
 }
 
 .navigation-button li{
-    border: 3px solid red;
-    width: 50px;
-    height: 50px;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 20px;
 }
 
+h1,
+h4{
+    margin: 10px 0 10px 20px;
+}
+
+h4{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
 .recent-played{
-    border: 3px solid red;
+
+    text-align: center;
+    margin-left: 20px;
 }
 
 .album{
@@ -91,12 +105,20 @@ ul{
     width: 100%;
 }
 
+.album h4{
+    margin: 5px 0 0 0;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
 .for-you{
-    border: 3px solid red;
+    text-align: center;
+    margin-left: 20px;
 }
 
 .popular{
-    border: 3px solid red;
+    margin-left: 20px;
+
 }
 
 footer{
