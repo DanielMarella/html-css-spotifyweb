@@ -258,6 +258,18 @@ footer{
     }
 }
 
+/* s */
+@media screen and (max-width: 768px) {
+    .album{
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .album img{
+        width: 80%;
+    }
+    
+}
+
 
 /* 639px s */
 /* 552px xs */
