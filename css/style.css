@@ -38,12 +38,26 @@ a{
 
 /* lg first full screen*/
 
+
+/* column-left */
 .column-left{
     width: 30vh;
     height: calc(100vh - 15vh);
     background-color: black;
     border: 2px solid blue;
 }
+
+.logo{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 60%;
+    margin-left: 20px;
+}
+/* ******************** */
 
 .column-right{
     color: white;
@@ -54,18 +68,16 @@ a{
     border: 2px solid cyan;
 }
 
-
 .top-row{
-    height: 15vh;
+    height: 10vh;
     background-color: #080b12;
-
 }
 
 .top-button{
     text-transform: uppercase;
     color: white;
     padding: 10px 30px;
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 20px;
     border-style: none;
     border: 1px solid white;
@@ -118,7 +130,7 @@ h4{
 
 .popular{
     margin-left: 20px;
-
+    text-align: center;
 }
 
 footer{
