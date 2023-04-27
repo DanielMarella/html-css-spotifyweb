@@ -18,6 +18,21 @@ a{
     opacity: .5;
     font-size: .9rem;
 }
+
+h1,
+h4{
+    color: white;
+    margin: 10px 0 10px 20px;
+}
+
+h4{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+/* ******************** */
+
+
 /* Reusable class */
 
 .flex{
@@ -36,15 +51,14 @@ a{
     align-items: center;
 }
 
-/* General class */
-h1,
-h4{
-    margin: 10px 0 10px 20px;
+.flex-column{
+    display: flex;
+    flex-direction: column;
 }
 
-h4{
-    font-size: 0.8rem;
-    opacity: 0.5;
+.between{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ******************** */
@@ -74,10 +88,19 @@ h4{
 
 /* ******************** */
 
+/* Container */
+
+.container{
+    height: calc(100vh - 25vh);
+}
+
+/* ******************** */
+
+
 /* Categories */
 
 .category{
-    padding-left: 3rem;
+    padding-left: 20px;
     margin-bottom: .7rem;
 }
 
@@ -86,6 +109,37 @@ h4{
 }
 
 /* ******************** */
+
+/* Playlist */
+
+.h1-playlist{
+    margin: 20px 0
+}
+
+.playlist{
+    padding-left: 20px;
+}
+
+.add-playlist{
+    margin: 10px 0;
+}
+
+.playlist ul li{
+    margin: 10px 0;
+}
+
+/* ******************** */
+
+/* End-column-left */
+
+.end-column-left{
+    color: white;
+    margin: 0 0 10px 20px;
+}
+
+hr{
+    margin: 5px 20px 5px 0;
+}
 
 /* Column-right */
 
