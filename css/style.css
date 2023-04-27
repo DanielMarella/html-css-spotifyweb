@@ -36,6 +36,20 @@ a{
     align-items: center;
 }
 
+/* General class */
+h1,
+h4{
+    margin: 10px 0 10px 20px;
+}
+
+h4{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+/* ******************** */
+
+
 /* lg first full screen*/
 
 
@@ -57,7 +71,23 @@ a{
     width: 60%;
     margin-left: 20px;
 }
+
 /* ******************** */
+
+/* Categories */
+
+.category{
+    padding-left: 3rem;
+    margin-bottom: .7rem;
+}
+
+.category a{
+    font-size: 1.1rem;
+}
+
+/* ******************** */
+
+/* Column-right */
 
 .column-right{
     color: white;
@@ -67,6 +97,10 @@ a{
     background-color: #141922;
     border: 2px solid cyan;
 }
+
+/* ******************** */
+
+/* Top-row */
 
 .top-row{
     height: 10vh;
@@ -84,6 +118,10 @@ a{
     background-color: #080b12;
 }
 
+/* ******************** */
+
+/* Navigation-button */
+
 .navigation-button li{
     text-transform: uppercase;
     display: flex;
@@ -92,18 +130,11 @@ a{
     margin: 0 20px;
 }
 
-h1,
-h4{
-    margin: 10px 0 10px 20px;
-}
+/* ******************** */
 
-h4{
-    font-size: 0.8rem;
-    opacity: 0.5;
-}
+/* Recent-played */
 
 .recent-played{
-
     text-align: center;
     margin-left: 20px;
 }
@@ -123,21 +154,34 @@ h4{
     opacity: 0.5;
 }
 
+/* ******************** */
+
+/* For-you */
+
 .for-you{
     text-align: center;
     margin-left: 20px;
 }
+
+/* ******************** */
+
+/* Popular */
 
 .popular{
     margin-left: 20px;
     text-align: center;
 }
 
+/* ******************** */
+
+/* Footer */
 footer{
     height: 15vh;
     background-color: grey;
     border: 2px solid blue;
 }
+
+/* ******************** */
 
 
 
