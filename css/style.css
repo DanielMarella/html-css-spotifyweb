@@ -141,6 +141,10 @@ hr{
     margin: 5px 20px 5px 0;
 }
 
+
+/* ******************** */
+
+
 /* Column-right */
 
 .column-right{
@@ -149,7 +153,6 @@ hr{
     width: calc(100% - 20vh);
     height: calc(100vh - 15vh);
     background-color: #141922;
-    border: 2px solid cyan;
 }
 
 /* ******************** */
@@ -181,7 +184,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 /* ******************** */
@@ -231,15 +234,31 @@ hr{
 /* Footer */
 footer{
     height: 15vh;
-    background-color: grey;
-    border: 2px solid blue;
+    background-color: #282828;
 }
 
 /* ******************** */
 
 
 
-/* 878px md */
+/* md */
+
+@media screen and (max-width: 992px) {
+    .album{
+        width: calc(100% / 4 - 1rem);
+    }
+    
+    .recent-played{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav{
+        flex-wrap: wrap;
+    }
+}
+
+
 /* 639px s */
 /* 552px xs */
 
