@@ -41,10 +41,11 @@ ul{
 }
 
 .column-right{
+    color: white;
     overflow: scroll;
     width: calc(100% - 20vh);
     height: calc(100vh - 15vh);
-    background-color: orange;
+    background-color: #141922;
     border: 2px solid cyan;
 }
 
@@ -67,13 +68,8 @@ ul{
     background-color: #080b12;
 }
 
-
-.navigation-button{
-    width: 100%;
-}
-
 .navigation-button li{
-    border: 3px solid black;
+    border: 3px solid red;
     width: 50px;
     height: 50px;
     display: flex;
@@ -87,9 +83,12 @@ ul{
 }
 
 .album{
-    width: calc(100% / 6);
-    height: 30vh;
-    border: 3px solid black;
+    width: calc(100% / 6 - 1rem);
+    margin: 1rem 1rem 1rem 0;
+}
+
+.album img{
+    width: 100%;
 }
 
 .for-you{
