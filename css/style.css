@@ -336,8 +336,39 @@ footer{
 
 
 .footer-center{
-
+    justify-content: center;
 }
+
+.interaction-button{
+    margin: 0 auto;
+}
+
+.interaction-button i{
+    margin: 0 10px;
+}
+
+.time span{
+    margin: 0 10px;
+}
+
+.time-bar{
+    height: 20px;
+    width: 300px;   
+    align-items: center; 
+}
+
+.full-time{
+    width: 100%;
+    height: 2px;
+    background-color: lightslategray;
+}
+
+.elapsed{
+    height: 2px;
+    width: 20%;
+    background-color: white;
+}
+
 
 .footer-right{
 
