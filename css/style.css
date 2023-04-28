@@ -83,8 +83,32 @@ h4{
 }
 
 .logo-small img{
-    width: 50%;
+    width: 40px;
 }
+
+.category img{
+    width: 25px;
+}
+.end-column-left-small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.end-column-left-small img{
+    width: 30px;
+}
+
+.user{
+    background-color: grey;
+    border-radius: 100%;
+}
+
+.download{
+    padding: 0 4px 0 0;
+}
+
 
 /* ******************** */
 
@@ -94,7 +118,6 @@ h4{
     width: 30vh;
     height: calc(100vh - 15vh);
     background-color: black;
-    border: 2px solid blue;
 }
 
 .logo{
@@ -104,7 +127,7 @@ h4{
 }
 
 .logo img{
-    width: 60%;
+    width: 120px;
     margin-left: 20px;
 }
 
@@ -159,10 +182,24 @@ h4{
     margin: 0 0 10px 20px;
 }
 
+.end-column-left img{
+    width: 20px;
+    vertical-align: middle;
+}
+
 hr{
     margin: 5px 20px 5px 0;
 }
 
+
+.user-big {
+    background-color: grey;
+    border-radius: 100%;
+}
+
+.end-column-left span{
+    vertical-align: middle;
+}
 
 /* ******************** */
 
@@ -206,7 +243,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 20px;
+    margin: 20px 10px;
 }
 
 /* ******************** */
