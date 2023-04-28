@@ -66,6 +66,14 @@ h4{
 
 /* lg first full screen*/
 
+/* column-left-small */
+
+.column-left-small{
+    height: calc(100vh - 15vh);
+    width: 10vh;
+    background-color: black;
+    display: none;
+}
 
 /* column-left */
 .column-left{
@@ -259,7 +267,7 @@ footer{
 }
 
 /* s */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .album{
         width: calc(100% / 2 - 1rem);
     }
@@ -270,9 +278,21 @@ footer{
     
 }
 
+/* xs */
 
-/* 639px s */
-/* 552px xs */
+@media screen and (max-width: 552px){
+    .column-left-small{
+        display: inline-block;
+    }
+
+    .column-left{
+        display: none;
+    }
+
+    .column-right{
+        width: calc(100% - 10vh);
+    }
+}
 
 /* height 350px */
 
