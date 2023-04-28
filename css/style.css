@@ -324,7 +324,7 @@ footer{
     margin: 5px 0 0 20px;
 }
 
-.footer-icon{
+.footer-left-icon{
     margin-left: 30px;
     opacity: .5;
 }
@@ -334,6 +334,7 @@ footer{
 }
 /* ******************** */
 
+/* Footer-center */
 
 .footer-center{
     justify-content: center;
@@ -369,10 +370,40 @@ footer{
     background-color: white;
 }
 
+/* ******************** */
+
+/* Footer-right  */
 
 .footer-right{
-
+    align-items: center;
 }
+
+.footer-right-icon{
+    margin-right: 20px;
+}
+
+.footer-right-icon i{
+    margin: 0 10px;
+}
+
+.volume-bar{
+    height: 20px;   
+    align-items: center; 
+}
+
+.full-volume{
+    width: 100px;
+    height: 2px;
+    background-color: lightslategray;
+}
+
+.select-volume{
+    height: 2px;
+    width: 20%;
+    background-color: white;
+}
+
+
 
 /* ******************** */
 
@@ -393,6 +424,58 @@ footer{
     .nav{
         flex-wrap: wrap;
     }
+
+    .interaction-button i{
+        margin: 0 5px;
+        transition: all 1s ease;
+    }
+
+    .time-bar{
+        transition: all 1s ease;
+        width: 200px;   
+    }
+    
+    .full-time{
+        width: 100%;
+    }
+    
+    .elapsed{
+        height: 2px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .full-volume{
+        width: 20px;
+        transition: all 1s ease;
+
+    }
+    
+    .select-volume{
+        transition: all 1s ease;
+        width: 5%;
+    }
+
+    .footer-right-icon{
+        margin-right: 10px;
+        transition: all 1s ease;
+
+    }
+    
+    .footer-right-icon i{
+        margin: 0 5px;
+        transition: all 1s ease;
+
+    }
+    
+    .footer-left-icon{
+        margin-left: 10px;
+    }
+    
+    .footer-icon i{
+        margin: 0 5px;
+    }
 }
 
 /* s */
@@ -404,7 +487,47 @@ footer{
     .album img{
         width: 80%;
     }
+
+    .interaction-button i{
+        margin: 0 5px;
+    }
+
+    .time-bar{
+        width: 100px;   
+    }
     
+    .full-time{
+        width: 100%;
+    }
+    
+    .elapsed{
+        height: 2px;
+    }
+    
+    .full-volume{
+        width: 20px;
+        transition: all 1s ease;
+
+    }
+    
+    .select-volume{
+        transition: all 1s ease;
+        width: 5%;
+    }
+
+    .footer-right-icon{
+        margin-right: 10px;
+        transition: all 1s ease;
+
+    }
+    
+    .footer-right-icon i{
+        margin: 0 5px;
+        transition: all 1s ease;
+
+    }
+    
+
 }
 
 /* xs */
