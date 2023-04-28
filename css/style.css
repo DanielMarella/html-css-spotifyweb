@@ -75,6 +75,20 @@ h4{
     display: none;
 }
 
+.logo-small{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-small img{
+    width: 50%;
+}
+
+/* ******************** */
+
+
 /* column-left */
 .column-left{
     width: 30vh;
